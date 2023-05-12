@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [manipal testng suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" parallel="classes" name="Functional  testing(failed)" verbose="0">
+    <classes>
+      <class name="org.example.Keyboard">
+        <methods>
+          <include name="key"/>
+        </methods>
+      </class> <!-- org.example.Keyboard -->
+      <class name="org.example.dragndrop">
+        <methods>
+          <include name="drag"/>
+        </methods>
+      </class> <!-- org.example.dragndrop -->
+    </classes>
+  </test> <!-- Functional  testing(failed) -->
+</suite> <!-- Failed suite [manipal testng suite] -->
